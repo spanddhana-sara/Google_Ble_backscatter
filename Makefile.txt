@@ -1,0 +1,17 @@
+backscatter: ble.o blebackscatter.o  pru.o uECC.o
+	gcc blebackscatter.o ble.o pru.o uECC.o -o blebackscatter -lpthread -lprussdrv
+
+pru: pru.c
+	gcc pru.c -c pru.o
+
+ble: ble.c
+	gcc ble.c -c ble.o
+
+blebackscatter: blebackscatter.c
+	gcc blebackscatter -c blebackscatter.o
+	
+uECC: uECC.c
+	gcc -c uECC.c -o uECC.o # Compile microECC
+
+clean:
+	rm -f backscatter *.o 
