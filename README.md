@@ -161,9 +161,6 @@ The hashed flags byte is currently `0x00`. In a real tracker this is a truncated
 
 **Planned:** Implement the hashed flags computation per the FMDN specification.
 
-### 4. EID Rotation on ESP32
-The ESP32 implementation currently uses a static EID. EID rotation with HMAC-SHA256 (as implemented on the BBB) will be ported to the ESP32 using the mbedTLS library included in ESP-IDF.
-
 ---
 
 ## References
