@@ -168,14 +168,11 @@ The ESP32 implementation currently uses a static EID. EID rotation with HMAC-SHA
 
 ## References
 
-- [Google Find My Device Network Specification](https://developers.google.com/find-my-device)
-- Varshney, A. et al. — *Passive Wi-Fi*, USENIX NSDI 2017
-- [OpenHaystack — Apple Find My Reverse Engineering](https://github.com/seemoo-lab/openhaystack)
+- Google Find My Tools Repo (https://github.com/leonboe1/GoogleFindMyTools)
 - Bluetooth Core Specification 5.x — Advertising PDU format
 
 ---
 
 ## Authors
+Spanddhana Sara
 
-University Research Project  
-Based on original PRU backscatter code by Ambuj Varshney, Uppsala Networked Objects (UNO), 2016
